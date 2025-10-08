@@ -11,17 +11,35 @@
       padding-top: 50px;
     }
 
-    img {
-      width: 1200px !important;
-      margin-top: 20px;
+    h1 {
+      font-size: 38px; /* z.B. 48 Pixel für den Titel */
+      margin-bottom: 20px;
     }
 
-    .tux-link img {
+    p {
+      font-size: 24px; /* z.B. 24 Pixel für den Absatz */
+      margin-bottom: 40px;
+    }
+
+    .bugatti img {
+      width: 700px;
+      max-width: 100%; /* für kleinere Bildschirme */
+      margin-bottom: 130px;
+    }
+
+    .enter-link {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 80px;
+      display: inline-block;
+    }
+
+    .tux img {
       width: 150px;
       transition: transform 0.2s ease;
     }
 
-    .tux-link img:hover {
+    .tux img:hover {
       transform: scale(1.1);
     }
   </style>
@@ -30,21 +48,23 @@
   <h1>Quinnibert & Latschibetschi und der bittere Rest :-)</h1>
   <p>Willkommen auf meiner ersten GitHub-Webseite.</p>
 
+  <!-- Bugatti-Bild -->
+  <div class="bugatti">
+    <img src="buhgattiiii.png" alt="Mein Bild">
+  </div>
+
   <!-- ENTER-Link -->
-  <p>
+  <div class="enter-link">
     <a href="knowledge.html">ENTER</a>
-  </p>
+  </div>
 
-  <!-- Tux-Link -->
-  <p class="tux-link">
+  <!-- Tux als klickbares Bild -->
+  <div class="tux">
     <a href="knowledge.html">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/a/af/Tux.png" 
-           alt="Tux der Pinguin">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/a/af/Tux.png" alt="Tux der Pinguin">
     </a>
-  </p>
+  </div>
 
-  <!-- Bild -->
-  <img src="buhgattiiii.png" alt="Mein Bild">
 </body>
 </html>
 
